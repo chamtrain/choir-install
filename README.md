@@ -1,1 +1,1 @@
-# choir-install
+# choir
