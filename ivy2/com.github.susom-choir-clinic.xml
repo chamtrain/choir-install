@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.susom"
+		module="choir"
+		revision="3.0-SNAPSHOT"
+		conf="clinic"
+		confs="default, runtime, compile, clinic, survey, test, gwt, macker"
+		date="20200511195812"/>
+	<dependencies>
+		<module organisation="org.gwtbootstrap3" name="gwtbootstrap3-extras">
+			<revision name="0.9.3" status="release" pubdate="20160224093055" resolver="public" artresolver="main" homepage="http://gwtbootstrap3.org" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="6">
+				<license name="Apache License Version 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5299" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3-extras\ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3-extras/0.9.3/gwtbootstrap3-extras-0.9.3.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gwtbootstrap3-extras" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="845527" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3-extras\sources\gwtbootstrap3-extras-0.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3-extras/0.9.3/gwtbootstrap3-extras-0.9.3-sources.jar"/>
+					</artifact>
+					<artifact name="gwtbootstrap3-extras" type="jar" ext="jar" status="no" details="" size="1142296" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3-extras\jars\gwtbootstrap3-extras-0.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3-extras/0.9.3/gwtbootstrap3-extras-0.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gwtbootstrap3" name="gwtbootstrap3">
+			<revision name="0.9.3" status="release" pubdate="20160224092500" resolver="public" artresolver="main" homepage="http://gwtbootstrap3.org" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="5">
+				<metadata-artifact status="no" details="" size="4981" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3\ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3/0.9.3/gwtbootstrap3-0.9.3.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gwtbootstrap3" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="1088929" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3\sources\gwtbootstrap3-0.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3/0.9.3/gwtbootstrap3-0.9.3-sources.jar"/>
+					</artifact>
+					<artifact name="gwtbootstrap3" type="jar" ext="jar" status="no" details="" size="1513627" time="0" location="C:\Users\justi\.ivy2\org.gwtbootstrap3\gwtbootstrap3\jars\gwtbootstrap3-0.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gwtbootstrap3/gwtbootstrap3/0.9.3/gwtbootstrap3-0.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.gwt" name="org.restlet.ext.json">
+			<revision name="2.3.0" status="release" pubdate="20191211072856" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="4">
+				<metadata-artifact status="no" details="" size="3358" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet.ext.json\ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/gwt/org.restlet.ext.json/2.3.0/org.restlet.ext.json-2.3.0.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="org.restlet.ext.json" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="3524" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet.ext.json\sources\org.restlet.ext.json-2.3.0-sources.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/gwt/org.restlet.ext.json/2.3.0/org.restlet.ext.json-2.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="org.restlet.ext.json" type="jar" ext="jar" status="no" details="" size="4625" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet.ext.json\jars\org.restlet.ext.json-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/gwt/org.restlet.ext.json/2.3.0/org.restlet.ext.json-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.gwt" name="org.restlet">
+			<revision name="2.3.0" status="release" pubdate="20191211073020" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="3">
+				<metadata-artifact status="no" details="" size="3197" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet\ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/gwt/org.restlet/2.3.0/org.restlet-2.3.0.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="org.restlet" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="342412" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet\sources\org.restlet-2.3.0-sources.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/gwt/org.restlet/2.3.0/org.restlet-2.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="org.restlet" type="jar" ext="jar" status="no" details="" size="635866" time="0" location="C:\Users\justi\.ivy2\org.restlet.gwt\org.restlet\jars\org.restlet-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/gwt/org.restlet/2.3.0/org.restlet-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-collections4">
+			<revision name="4.1" status="release" pubdate="20151125135515" resolver="public" artresolver="main" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="2">
+				<metadata-artifact status="no" details="" size="11558" time="0" location="C:\Users\justi\.ivy2\org.apache.commons\commons-collections4\ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections4" type="jar" ext="jar" status="no" details="" size="751238" time="0" location="C:\Users\justi\.ivy2\org.apache.commons\commons-collections4\jars\commons-collections4-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar"/>
+					</artifact>
+					<artifact name="commons-collections4" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="701388" time="0" location="C:\Users\justi\.ivy2\org.apache.commons\commons-collections4\sources\commons-collections4-4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.gwt" name="gwt-user">
+			<revision name="2.7.0" status="release" pubdate="20141120020301" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="0">
+				<metadata-artifact status="no" details="" size="6593" time="0" location="C:\Users\justi\.ivy2\com.google.gwt\gwt-user\ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gwt-user" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="6122719" time="0" location="C:\Users\justi\.ivy2\com.google.gwt\gwt-user\sources\gwt-user-2.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0-sources.jar"/>
+					</artifact>
+					<artifact name="gwt-user" type="jar" ext="jar" status="no" details="" size="32024115" time="0" location="C:\Users\justi\.ivy2\com.google.gwt\gwt-user\jars\gwt-user-2.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.0.0.GA" status="release" pubdate="20100224214311" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master(*), sources, master" position="1">
+				<license name="Apache License, Version 2.0" url="license.txt"/>
+				<metadata-artifact status="no" details="" size="2551" time="0" location="C:\Users\justi\.ivy2\javax.validation\validation-api\ivy-1.0.0.GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom"/>
+				<caller organisation="com.github.susom" name="choir" conf="clinic" rev="1.0.0.GA" rev-constraint-default="1.0.0.GA" rev-constraint-dynamic="1.0.0.GA" callerrev="3.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="validation-api" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="65220" time="0" location="C:\Users\justi\.ivy2\javax.validation\validation-api\sources\validation-api-1.0.0.GA-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar"/>
+					</artifact>
+					<artifact name="validation-api" type="jar" ext="jar" status="no" details="" size="47433" time="0" location="C:\Users\justi\.ivy2\javax.validation\validation-api\jars\validation-api-1.0.0.GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="com.sksamuel.jqm4gwt"
+		module="jqm4gwt-plugins"
+		revision="1.4.5.Final"
+		status="release"
+		publication="20141224022604"
+	>
+		<description homepage="">
+		GWT wrappers for common JQuery Mobile plugins
+		</description>
+		<m:dependency.management__junit__junit__version>4.7</m:dependency.management__junit__junit__version>
+		<m:properties__maven.plugin.surefire.version>2.14.1</m:properties__maven.plugin.surefire.version>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-datebox__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-datebox__version>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-remote__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-remote__version>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-grid960__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-grid960__version>
+		<m:properties__maven.plugin.dependency.version>2.7</m:properties__maven.plugin.dependency.version>
+		<m:dependency.management__com.google.gwt__gwt-servlet__version>2.7.0</m:dependency.management__com.google.gwt__gwt-servlet__version>
+		<m:properties__maven.plugin.resources.version>2.6</m:properties__maven.plugin.resources.version>
+		<m:properties__maven.plugin.javadoc.version>2.9</m:properties__maven.plugin.javadoc.version>
+		<m:dependency.management__net.kindleit__gae-runtime__version>${gae.version}</m:dependency.management__net.kindleit__gae-runtime__version>
+		<m:properties__downloadSources>true</m:properties__downloadSources>
+		<m:properties__maven.plugin.gpg.version>1.4</m:properties__maven.plugin.gpg.version>
+		<m:properties__maven.plugin.jar.version>2.4</m:properties__maven.plugin.jar.version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0</m:maven.plugins>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-library__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-library__version>
+		<m:properties__maven.plugin.source.version>2.2.1</m:properties__maven.plugin.source.version>
+		<m:properties__maven.plugin.war.version>2.3</m:properties__maven.plugin.war.version>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-standalone__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-standalone__version>
+		<m:dependency.management__com.google.gwt__gwt-user__version>2.7.0</m:dependency.management__com.google.gwt__gwt-user__version>
+		<m:dependency.management__com.google.appengine__appengine-testing__version>${gae.version}</m:dependency.management__com.google.appengine__appengine-testing__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__maven.plugin.release.version>2.3.2</m:properties__maven.plugin.release.version>
+		<m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-iscroll__version>1.4.5.Final</m:dependency.management__com.sksamuel.jqm4gwt__jqm4gwt-iscroll__version>
+		<m:dependency.management__com.google.appengine__appengine-api-stubs__version>${gae.version}</m:dependency.management__com.google.appengine__appengine-api-stubs__version>
+		<m:dependency.management__com.google.appengine__appengine-api-labs__version>${gae.version}</m:dependency.management__com.google.appengine__appengine-api-labs__version>
+		<m:properties__gwt.version>2.7.0</m:properties__gwt.version>
+		<m:properties__maven.plugin.compiler.version>3.1</m:properties__maven.plugin.compiler.version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>
